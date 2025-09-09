@@ -8,12 +8,31 @@ function App() {
    let [counter , setCounter] =   useState(15) 
       const addValue = () => {
         console.log("Counter value is : ", counter)
-        setCounter(counter + 1)
+        if(counter < 0){
+          setCounter(0)
+          return;
+        }
+        if(counter >= 20){
+          alert("Counter value should not be greater than 10")
+          return;
+        }
+        else{
+
+          setCounter(counter + 1)
+        }
         console.log("Counter value after increment is : ", counter)
       }
       const removeValue = () => {
         console.log("Counter value is : ", counter)
-        setCounter(counter - 1)
+        if(counter === 0){
+          return;
+        }
+        else if(counter < 0){
+          setCounter(0)
+          return;
+        }else{
+            setCounter(counter - 1)
+        }
         console.log("Counter value after decrement is : ", counter)
       }
   return (
