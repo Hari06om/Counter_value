@@ -1,0 +1,62 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+}
+a {
+  color: #61dafb;
+  text-decoration: none;
+
+}
+h1 {
+  font-size: 5rem;
+  color: #ffffff;
+}
+h2 {
+  font-size: 2rem;
+  color: #20232a;
+  margin-top: 1rem;
+}
+
+.main{
+  margin-top: 2rem;
+  border: 2px solid #20232a;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #61dafb;
+  color: white;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+button:hover {
+  background-color: #21a1f1;
+}
+
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
