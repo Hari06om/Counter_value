@@ -45,21 +45,6 @@ A simple and interactive counter application built with React and Vite. This pro
 - Click the **"Remove Value"** button to decrement the counter
 - Open browser developer tools to see console logs showing counter state changes
 
-## 📁 Project Structure
-
-```
-Counter_Value/
-├── public/
-│   └── vite.svg
-├── src/
-│   ├── assets/
-│   │   └── react.svg
-│   ├── App.css
-│   ├── App.jsx
-│   └── main.jsx
-├── package.json
-└── README.md
-```
 
 ## 🔧 Key Components
 
