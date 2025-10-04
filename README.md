@@ -92,6 +92,9 @@ The application is fully responsive and works well on:
 
 ## 📝 License
 
+
+
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
