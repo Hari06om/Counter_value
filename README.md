@@ -38,6 +38,9 @@ A simple and interactive counter application built with React and Vite. This pro
    npm run dev
    ```
 
+
+
+
 4. **Open your browser**
    Navigate to `http://localhost:5173` to view the application
 
