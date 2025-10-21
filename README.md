@@ -7,7 +7,9 @@ A simple and interactive counter application built with React and Vite. This pro
 - **Increment Counter**: Increase the counter value by 1
 - **Decrement Counter**: Decrease the counter value by 1
 - **Real-time Updates**: Counter value updates instantly in the UI
-- **Console Logging**: Track counter changes in the browser console
+- **Console Logging**: Track counter changes in the browser consol
+
+
 - **Responsive Design**: Clean and modern interface that works on all devices
 - **Smooth Animations**: Hover effects and transitions for better user experience
 
